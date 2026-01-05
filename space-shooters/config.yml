@@ -1,0 +1,16 @@
+title: Space Arcade
+description: A Jekyll-powered arcade of browser games
+baseurl: ""
+url: "https://yourusername.github.io"
+
+collections:
+  games:
+    output: true
+    permalink: /games/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: games
+    values:
+      layout: game

@@ -1,0 +1,6 @@
+space_shooter:
+  lives: 3
+  max_level: 10
+  powerups:
+    - speed
+    - life

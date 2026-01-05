@@ -1,0 +1,40 @@
+<div class="container">
+<header>
+  <h1>Space Shooter Game</h1>
+  <p class="subtitle">A JavaScript arcade game built with Jekyll</p>
+</header>
+  <div class="content">
+            <section class="game-section">
+                <div class="game-header">
+                    <h2>Galaxy Defender</h2>
+                    <div class="stats">
+                        <div class="stat">Score: <span id="score">0</span></div>
+                        <div class="stat">Lives: <span id="lives">3</span></div>
+                        <div class="stat">Level: <span id="level">1</span></div>
+                    </div>
+                </div>
+                
+
+<canvas id="gameCanvas" width="800" height="500"></canvas>
+
+<div class="controls">
+  <button id="startBtn">Start</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="resetBtn">Reset</button>
+</div>   <!-- Mobile controls -->
+                <div class="mobile-controls">
+                    <div class="mobile-btn" id="leftBtn">←</div>
+                    <div class="mobile-btn" id="shootBtn">⚡</div>
+                    <div class="mobile-btn" id="rightBtn">→</div>
+                </div>
+                
+                <!-- Game Over Screen -->
+                <div id="gameOverScreen" class="game-over">
+                    <h2>Game Over</h2>
+                    <p>Your final score: <span id="finalScore">0</span></p>
+                    <p>Level reached: <span id="finalLevel">1</span></p>
+                    <button id="restartBtn">Play Again</button>
+                </div>
+            </section>
+  </div>
+</div>
